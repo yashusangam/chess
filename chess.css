@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.white{
+    width: 100px;
+    height: 100px;
+    float: left;
+
+}
+.main{
+    height: 100px;
+    width: 800px;
+    text-align: center;
+    font-size: 50px;
+}
+.black{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    float: left;
+    
+}
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.wrap{
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+    margin-top: 5% ;
+}
